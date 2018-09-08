@@ -6,8 +6,8 @@
 
 
 | # | Title   | Solution | Difficulty |
-|---+---------+----------+------------|
-| 1 | [[https://oj.leetcode.com/problems/two-sum/][Two Sum]] | [[./algorithms/go/twoSum/twoSum.go][Golang]]   | Medium     |
+|---+---------+----------+-- ---------|
+| 1 | [[https://oj.leetcode.com/problems/two-sum/][Two Sum]] | [[./algorithms/go/twoSum/twoSum.go][Golang]]/[[./algorithms/python/twoSum/twoSum.py][Python]] | Medium |
 
 ** LeetCode Shell
 
@@ -16,3 +16,12 @@ TODO...
 ** LintCode
 
 TODO...
+
+* PS
+
+I use golang and python to resovle the problems.
+
+becasue i want to use different language to resolve them.
+
+- Static Language: golang
+- Dynamic Language: python
