@@ -5,9 +5,9 @@
 (Notes: "♥" means you need to buy a book from Leetcode)
 
 
-| # | Title   | Solution | Difficulty |
-|---+---------+----------+-- ---------|
-| 1 | [[https://oj.leetcode.com/problems/two-sum/][Two Sum]] | [[./algorithms/go/twoSum/twoSum.go][Golang]]/[[./algorithms/python/twoSum/twoSum.py][Python]] | Medium |
+| # | Title   | Solution      | Difficulty |
+|---+---------+---------------+------------|
+| 1 | [[https://oj.leetcode.com/problems/two-sum/][TwoSum]] | [[./algorithms/go/twoSum/twoSum.go][Golang]]/[[./algorithms/python/twoSum/twoSum.py][Python]] | Medium     |
 
 ** LeetCode Shell
 
