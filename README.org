@@ -1,0 +1,18 @@
+* LeetCode
+
+** LeetCode Algorithm
+
+(Notes: "♥" means you need to buy a book from Leetcode)
+
+
+| # | Title   | Solution | Difficulty |
+|---+---------+----------+------------|
+| 1 | [[https://oj.leetcode.com/problems/two-sum/][Two Sum]] | [[./algorithms/go/twoSum/twoSum.go][Golang]]   | Medium     |
+
+** LeetCode Shell
+
+TODO...
+
+** LintCode
+
+TODO...
