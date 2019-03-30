@@ -1,6 +1,8 @@
-// Source : https://oj.leetcode.com/problems/two-sum/
-// Author : Noah Shine
-// Date   : 2018-09-08
+/**********************************************************************************
+ * Source : https://oj.leetcode.com/problems/two-sum/
+ * Author : Noah Shine
+ * Date   : 2018-09-08
+ **********************************************************************************/
 
 /**********************************************************************************
 *
@@ -18,13 +20,13 @@
 *
 **********************************************************************************/
 
-package twoSum
+package main
 
 func twoSum(nums []int, target int) []int {
 	for i := 0; i < len(nums); i++ {
 		for j := i + 1; j < len(nums); j++ {
 			if nums[i]+nums[j] == target {
-				return []int{nums[i], nums[j]}
+				return []int{i, j}
 			}
 		}
 	}
