@@ -6,7 +6,8 @@
 
 | # | Title                                                | Solution | Difficulty |
 |---|------------------------------------------------------|----------|------------|
-| 1 | [TwoSum]([https://oj.leetcode.com/problems/two-sum/) | [Golang](./algorithms/golang/twoSum/solution.go) | Medium     |
+| 2 | [TwoSum]([https://oj.leetcode.com/problems/two-sum/) | [Golang](./algorithms/golang/twoSum/solution.go) | Easy     |
+| 1 | [TwoSum]([https://oj.leetcode.com/problems/two-sum/) | [Golang](./algorithms/golang/twoSum/solution.go) | Easy     |
 
 ## LeetCode Shell
 
