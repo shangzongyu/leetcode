@@ -4,23 +4,19 @@
 
 (Notes: "♥" means you need to buy a book from Leetcode)
 
-| # | Title                                                | Solution | Difficulty |
-|---|------------------------------------------------------|----------|------------|
-| 2 | [TwoSum]([https://oj.leetcode.com/problems/two-sum/) | [Golang](./algorithms/golang/twoSum/solution.go) | Easy     |
-| 1 | [TwoSum]([https://oj.leetcode.com/problems/two-sum/) | [Golang](./algorithms/golang/twoSum/solution.go) | Easy     |
+| #   | Title                                                | Solution                                         | Difficulty |
+| --- | ---------------------------------------------------- | ------------------------------------------------ | ---------- |
+| 2 |
+| 1   | [TwoSum](https://leetcode.com/problems/two-sum/) | [Go](./algorithms/golang/twoSum/solution.go) | Easy       |
 
 ## LeetCode Shell
 
-T
+TODO...
 
 ## LintCode
 
 TODO...
 
-## PS
-
-I use golang to resovle the problems.
-
 ## Ref
 
-- <https://github.com/haoel/leetcode>
+-   <https://github.com/haoel/leetcode>

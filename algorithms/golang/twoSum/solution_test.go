@@ -2,26 +2,26 @@ package main
 
 import "testing"
 
-func Test_TwoSum_5nums(t *testing.T) {
-	var nums []int
-	for i := 0; i < 5; i++ {
-		nums = append(nums, i+1)
+func TestTwoSum(t *testing.T) {
+	nums := []int{2, 7, 11, 15}
+	tables := []struct {
+		target   int
+		want_one int
+		want_two int
+	}{
+		{9, 0, 1},
+		{18, 1, 2},
+		{26, 2, 3},
 	}
-	t.Log(twoSum(nums, 9))
-}
 
-func Test_TwoSum_50nums(t *testing.T) {
-	var nums []int
-	for i := 0; i < 50; i++ {
-		nums = append(nums, i)
+	for _, table := range tables {
+		result := twoSum(nums, table.target)
+		if result == nil {
+			t.Errorf("twoSum(%v, %d) == nil", nums, table.target)
+		} else {
+			if result[0] != table.want_one || result[1] != table.want_two {
+				t.Errorf("twoSum(%v, %d) == %v, want %v", nums, table.target, result, []int{table.want_one, table.want_two})
+			}
+		}
 	}
-	t.Log(twoSum(nums, 90))
-}
-
-func Test_TwoSum_500nums(t *testing.T) {
-	var nums []int
-	for i := 0; i < 500; i++ {
-		nums = append(nums, i)
-	}
-	t.Log(twoSum(nums, 900))
 }
